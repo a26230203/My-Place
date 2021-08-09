@@ -1,0 +1,2058 @@
+.App {
+  text-align: center;
+}
+
+
+.login-page {
+  text-align: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.login-page .switch{
+  width: 400px;
+  height: 140px;
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
+  top: 73%;
+  border-radius: 8px;
+}
+
+.login-page #change:checked+label,
+
+.login-page #change:not(:checked)+label{
+  background-color: #FFB8CE;
+  color: white;
+  width: 280px;
+  padding: 8px 0;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 50%;
+  margin-left: -140px;
+  margin-bottom: 1000px;
+  top: 82%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.login-page #change {
+  display: none;
+}
+
+.login-page .login{
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
+  top: 8%;
+  perspective: 800px;
+}
+
+.login-page  form{
+  position: absolute;
+  margin-top: 200px;
+  height: 100%;
+  border-radius: 8px;
+  transform-style: preserve-3d;
+}
+.login-page .sign{
+  transform: rotateY(180deg);
+}
+
+.login-page h1, h2{
+  color: #1f2029;
+  user-select: none;
+}
+.login-page h1{
+  font-size: 80px;
+  margin-bottom: 100px;
+}
+
+
+.login-page input{
+  background-color: #81d0f5;
+  width: 70%;
+  height: 48px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 0 16px;
+  font-size: 18px;
+  color: #1f2029;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(73, 76, 79, 0.5);
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 1px);
+}
+@import '~antd/dist/antd.css';
+
+.login-page .login input:nth-child(-n+3){
+  margin: 20px 0;
+}
+
+.login-page .btn{
+  background-color: #eec643;
+  border: none;
+  width: 280px;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 6px 0;
+  color: white;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.home-page h1 {
+  font-family: cursive;
+  font-weight: 600;
+  text-align: left;
+  color: white;
+  margin-bottom: 0;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  background-image: url('https://miro.medium.com/max/2625/1*iNcobVOqJJul2vqihlGs-w.jpeg');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+.home-page h1 span {
+  color: crimson;
+}
+
+.home-page .recent-pohot {
+  text-align: left;
+  padding-top: 20px;
+  margin-top: 70px;
+  margin-left: 400px  ;
+  margin-bottom: -20px;
+}  
+
+.home-page .photo-row {
+  display: inline-flex;
+  flex-wrap: wrap;
+  height: 400px;
+}
+
+.home-page .photo-column0 {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.home-page .photo-colum1 {
+  height: 200px;
+}
+
+.home-page .photo-colum2 {
+  height: 200px;
+}
+
+.home-page .img0 {
+  width: 300px;
+  height: 400px;
+}
+
+.home-page .img1 {
+  width: 200px;
+  height: 200px;
+  margin-right: -200px;
+}
+
+.home-page .img2 {
+  width: 200px;
+  height: 200px;
+  margin-top: 201px;
+}
+
+
+.home-page  .photo-column .img {
+  margin-top: 8px;
+}
+
+
+.home-page .photo-card {
+  width: 550px;
+  height: 570px;
+  left: 600px;
+  padding-top: 5px;
+  margin-top: 170px;
+  margin-bottom: -120px;
+  margin-left: -20px;
+  box-shadow: -30px 30px 40px 8px rgba(47, 47, 47, 0.993);
+  border-radius: 5px;
+}
+
+.site-calendar {
+  width: 300px;
+  border: 1px solid #f0f0f0;
+  box-shadow: -30px 30px 100px 5px rgba(47, 47, 47, 0.993);
+  border-radius: 2px;
+  margin-top: -200px;
+  margin-left: 1450px;
+  margin-bottom: -400px;
+}
+
+
+.photo-card .ant-card-body {
+  height: 470px;
+}
+
+.home-page .recent-pohot {
+  color: black;
+  padding-top: 10px;
+  overflow: hidden;
+  left: 500px;
+  margin-bottom: -150px;
+}
+
+.journal-div {
+  margin-top: 820px;
+}
+
+.jounral-detial {
+  background-image: url('https://media.gettyimages.com/photos/newspaper-with-old-grunge-vintage-unreadable-paper-texture-background-picture-id1130355559?b=1&k=6&m=1130355559&s=170667a&w=0&h=7LcUXUlbPR-UTkvx9cJmIpGmteax98pkVVLRyIaW43Q=');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  border-radius: 5px;
+  border: 1px solid rgb(129, 129, 129);
+  margin-top: 50px;
+  padding-top: 50px;
+  height: 300px;
+  overflow:hidden;
+  box-shadow: -30px 30px 40px 8px rgba(47, 47, 47, 0.993);
+
+}
+
+.journal-detial-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 250px;
+}
+
+.jounral-detial-p {
+  margin-left: 50px;
+  margin-top: 50px;
+  overflow:hidden;
+  height: 92px;
+  width: 350px;
+  text-align: left;
+}
+
+.jounral-detial-p::first-line {
+  text-indent: 50px;
+}
+
+.Main-navbar {
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+  background-color: #1f2029;
+}
+
+.nav-bar {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding-right: 100px;
+
+}
+
+.ant-upload.ant-upload-select-picture-card {
+  width: 250px;
+  height: 250px;
+
+}
+
+
+
+.ant-upload-list-picture-card-container {
+  width: 250px;
+  height: 250px;
+}
+
+.profile-page-upload .ant-upload.ant-upload-select-picture-card {
+  width: 200px;
+  height: 200px;
+}
+
+.profile-page-upload .ant-upload.ant-upload-select-picture-card {
+  width: 200px;
+  height: 200px;
+}
+
+.profile-page-upload .ant-upload-list-picture-card-container {
+  width: 200px;
+  height: 200px;
+}
+
+.photo-page-header {
+  height: 145px;
+  background-image: url('https://image.architonic.com/img_pro2-4/131/6569/craftwand-produkt-modular-wood-wall-system-1-b.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  margin-bottom: -50px;
+}
+
+
+.photo-subdiv {
+  background-image: url('https://image.architonic.com/img_pro2-4/131/6569/craftwand-produkt-modular-wood-wall-system-1-b.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+.photo-subnav {
+  font-family: cursive;
+  display: inline-flex;
+  margin-top: 100px;
+  padding-top: 20px;
+  list-style: none; 
+  text-align: left;
+}
+
+.photo-subnav-li {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.photo-subnav-li:hover {
+  transform: scale(1.2);
+}
+
+.photo-btn {
+  font-family: cursive;
+  text-align: center;
+  margin-bottom: -10px;
+}
+
+.photo-btn button {
+  font-weight: 900;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: rgba(236, 216, 162, 0.6);
+  box-shadow: 10px 10px 5px grey;
+}
+
+.photo-btn button:hover {
+  transform: scale(1.2);
+}
+
+.photo-btn .switch {
+  border-radius: 50%
+}
+
+.photo-page-list {
+  background-image: url('https://image.architonic.com/img_pro2-4/131/6569/craftwand-produkt-modular-wood-wall-system-1-b.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  padding-bottom: 70px;
+  min-height: 920px; 
+  
+}
+
+.photo-list-card {
+  display: inline-block;
+  overflow: hidden;
+  width: 350px;
+  height: 430px;
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+  min-height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.photo-list-card:hover {
+  transition: all 0.7s ;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.photo-list-card:nth-child(1) {
+  transform: rotate(10deg) !important; 
+}
+
+.photo-list-card:nth-child(2) {
+  transform: rotate(5deg) !important;
+}
+
+.photo-list-card:nth-child(3) {
+  transform: rotate(-10deg) !important;
+}
+
+.photo-list-card:nth-child(4) {
+  transform: rotate(20deg) !important;
+}
+
+.photo-list-card:nth-child(5) {
+  transform: rotate(-10deg) !important;
+}
+
+.photo-list-card:nth-child(6) {
+  transform: rotate(20deg) !important;
+}
+
+.photo-list-card:nth-child(7) {
+  transform: rotate(-5deg) !important;
+}
+
+.photo-list-card:nth-child(8) {
+  transform: rotate(-20deg) !important;
+}
+
+.photo-list-card:nth-child(10) {
+  transform: rotate(-20deg) !important;
+}
+
+.photo-list-card:nth-child(12) {
+  transform: rotate(20deg) !important;
+}
+
+.photo-upload-card {
+  background-image: url('https://image.architonic.com/img_pro2-4/131/6569/craftwand-produkt-modular-wood-wall-system-1-b.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  margin-top: -200px;
+  height: 1000px;
+  padding-top: 150px;
+  font-family: cursive;
+
+}
+
+.photo-upload-cancel {
+  margin-left: 1550px;
+}
+
+
+.view-card-page {
+  perspective: 750px;
+  height: 1050px;
+  background-image: url('https://mocah.org/uploads/posts/5420348-water-tree-reflection-forest-island-mist-fog-blue-monochrome-outdoors-nature-woodland-ray-scenic-outdoor-heaven-cloud-flare-open-ocean-png-images.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  padding-top: 50px;
+}
+
+.view-btn {
+  margin-left: 1500px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.65) ;
+}
+
+.view-btn:hover {
+  transform: scale(1.3);
+}
+
+.view-card {
+  position: relative;
+  right: 50px;
+  top: 350px;
+  width: 120px;
+  height: 180px;
+  margin: auto;
+  transform-style: preserve-3d;
+  animation: rotateY 60s infinite linear;
+}
+
+@-webkit-keyframes rotateY {
+  to { -webkit-transform: rotateY(0); }
+}
+@keyframes rotateY {
+  to { transform: rotateY(360deg); }
+}
+
+.view-card img {
+  position: absolute;
+  cursor: pointer;
+  width: 133px;
+  height: 200px;
+  border: 12px solid #fff;
+  border-bottom: 50px solid #fff;
+  box-shadow: 0 0 5px rgb(129, 127, 127);
+  -webkit-box-reflect: below 5px 
+  -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.5) 100%);
+  border-radius: 5px;
+  transform: rotateY(0deg) translateZ(0px);
+  z-index: 1;
+}
+
+.view-card img:hover {
+  transform: scale(1.3);
+} 
+.album-page-header {
+  height: 80px;
+  background-image: url("https://i5.walmartimages.com/asr/bfcc6b12-fbf3-4292-9263-366c45419707_1.e896e06d8ad0217ca670037c903afa7c.jpeg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+ .album-page {
+  position: relative;
+  display: inline-block;
+  width: 1822px;
+  min-height: 920px;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/61kMhm14f9L._AC_SL1500_.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+
+}
+
+.album-subnav {
+  font-family: cursive;
+  display: inline-flex;
+  margin-top: 100px;
+  padding-top: 20px;
+  list-style: none; 
+  text-align: left;
+  z-index: 10;
+}
+
+.album-subnav-li {
+  margin-left: 30px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.album-List {
+  display: inline-block;
+  overflow: hidden;
+  width: 255px;
+  height: 350px;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 200px;
+  padding-top:  47px;
+  border-radius: 15px;
+  object-fit: cover;
+  object-position: center;
+  background-image: url("https://w7.pngwing.com/pngs/352/867/png-transparent-brown-wooden-frame-wood-frame-wood-frame-frame-golden-frame-trendy-frame.png");
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
+  box-shadow: -30px 15px 15px 0 rgba(73, 76, 79, 0.5);
+  cursor: pointer;
+}
+
+.album-List:hover {
+  transform: scale(1.1);
+} 
+
+.album-List h4 {
+  font-family: cursive;
+  margin-top: -10px;
+  margin-left: 38px;
+  margin-bottom: -1px;
+  background-color: #FFF;
+  width: 179px;
+  height: 35px;
+}
+
+.album-List img{
+  width: 180px;
+  height: 250px;
+  border: 5px solid rgba(253, 253, 252, 0.65);
+  border-bottom: 40px solid rgb(253, 253, 252);;
+  border-radius: 2px;
+  box-shadow: -5px 5px 40px 0 rgba(180, 180, 180, 0.993);
+}
+
+.ablum-create {
+  margin-top: 50px;
+}
+
+.album-creat-btn {
+  margin-top: 30px;
+  margin-left: 580px;
+  margin-bottom: -100px;
+}
+
+.album-creat-confrim {
+  margin-left: 20px;
+}
+
+
+.album-photo-page-list {
+  background-image: url('https://image.architonic.com/img_pro2-4/131/6569/craftwand-produkt-modular-wood-wall-system-1-b.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  padding-bottom: 70px;
+  min-height: 920px; 
+  padding-top: 100px;
+}
+
+
+.journal-page {
+  background-image: url("https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGFibGUlMjBzdXJmYWNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.journal-header {
+  height: 80px;
+  width: 1818px;
+  background-image: url("https://lunginstitute.com/wp-content/uploads/2015/12/120115_Blog_InLineImages-1.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.solid {
+  margin-top: 30px;
+  color: rgb(238, 182, 52);
+  border-radius: 5px;
+  border-top: 3px solid
+}
+
+.dotted {
+  border-top: 0.5 px dotted;
+  color: rgb(238, 182, 52);
+}
+
+.journal-sub-navbar {
+  font-family: cursive;
+  cursor: pointer;
+  display: inline-flex;
+  margin-top: 60px;
+  padding-top: 20px;
+  list-style: none; 
+  text-align: left;
+}
+
+.journal-sub-navbar li {
+  background-image: url("https://static.scientificamerican.com/sciam/cache/file/E00E5DC5-1F35-4256-9693D7CD448C302B_source.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  width: 115px;
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 10px;
+  border-radius: 20px;
+  font-weight: 900;
+  box-shadow: -15px 5px 15px 0 rgba(73, 73, 73, 0.993);
+}
+
+.journal-sub-navbar li:hover {
+  color: white;
+}
+
+.journal-list-container {
+  width: 1100px;
+  min-height: 1200px;
+  margin-left: 350px;
+  margin-top: -10px;
+  background-image: url("https://cdn.wallpapersafari.com/70/54/yvbX0E.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  box-shadow: -30px 30px 40px 8px rgba(47, 47, 47, 0.993);
+}
+
+.journal-list {
+  cursor: pointer;
+  margin-left: 100px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.journal-list-title{
+  width: 300px;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.journal-list p{
+  text-align: left;
+  line-height: 45px;
+  margin-top: 10px;
+  font-size: 20px;
+  width: 300px;
+  height: 140px;
+  overflow: hidden;
+}
+
+.journal-list-time-btn {
+  display: inline-flex;
+  width: 500px;
+  margin-right: 750px;
+  margin-left: 20px;
+}
+
+.journal-list-time-btn div {
+  margin-right: 20px;
+}
+
+.journal-list-edit-btn {
+  margin-right: 20px;
+}
+
+.journal-list-edit-btn:hover {
+  transform: scale(1.1);
+}
+
+.journal-list-delet-btn:hover {
+  transform: scale(1.1);
+}
+
+.journal-list-btn {
+  font-family: cursive;
+  background-image: url("https://static.scientificamerican.com/sciam/cache/file/E00E5DC5-1F35-4256-9693D7CD448C302B_source.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  margin-top: 80px;
+  border-radius: 20px;
+  font-weight: 900;
+  font-size: 20px;
+  margin-right: 700px;
+  width: 230px;
+  height: 40px;
+  box-shadow: -10px 5px 15px 0 rgba(197, 153, 31, 0.993);
+}
+
+.journal-list-btn:hover {
+  color: white;
+}
+
+.journal-no-content {
+  font-family: cursive;
+  width: 300px;
+  height: 35px;
+  margin-top: 310px;
+  margin-left: 380px;
+  box-shadow: -15px 5px 25px 0 rgba(153, 153, 153, 0.993);
+}
+
+
+.new-jouranl {
+  width: 1100px;
+  margin-left: 350px;
+  background-image: url("https://cdn.wallpapersafari.com/70/54/yvbX0E.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 150px;
+}
+
+.new-jouranl-btn {
+  margin-left: 900px;
+}
+
+.new-jouranl .title {
+  width: 800px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+}
+
+.new-jouranl h2 {
+  font-family: cursive;
+  margin-right: 760px;
+  margin-bottom: 50px;
+  box-shadow: -10px 5px 15px 0 rgba(197, 153, 31, 0.993);
+}
+
+.new-jouranl .btn {
+  margin-top: 15px;
+  margin-left: 320px;
+  margin-bottom: 15px;
+}
+
+.new-jouranl .btn-publish {
+  background-image: url("https://cdn.wallpapersafari.com/70/54/yvbX0E.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  border-radius: 20px;
+  font-weight: 900;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: -10px 5px 15px 0 rgba(197, 153, 31, 0.993);
+}
+
+.new-jouranl .btn-publish:hover{
+  transform: scale(1.2);
+} 
+
+.new-jouranl .btn-cancel {
+  background-image: url("https://cdn.wallpapersafari.com/70/54/yvbX0E.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  border-radius: 20px;
+  font-weight: 900;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: -10px 5px 15px 0 rgba(197, 153, 31, 0.993);
+}
+
+.new-jouranl .btn-cancel:hover{
+  transform: scale(1.2);
+} 
+
+.new-jouranl .btn-save {
+  background-image: url("https://cdn.wallpapersafari.com/70/54/yvbX0E.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  border-radius: 20px;
+  font-weight: 900;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: -10px 5px 15px 0 rgba(197, 153, 31, 0.993);
+}
+
+.new-jouranl .btn-save:hover{
+  transform: scale(1.2);
+} 
+
+.note-page-header {
+  height: 95px;
+  background-image: url("https://image.freepik.com/free-photo/colorful-blank-sticky-notes-cork-board_23-2147890055.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+
+.journal-detail-list-container {
+  width: 1100px;
+  min-height: 1200px;
+  margin-left: 350px;
+  margin-top: 20px;
+  padding: 110px;
+  background-image: url("https://cdn.wallpapersafari.com/70/54/yvbX0E.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  box-shadow: -30px 30px 40px 8px rgba(47, 47, 47, 0.993);
+
+}
+
+.journal-detail-list-container .sub {
+  font-family: cursive;
+  display: inline-flex;
+  margin-right: 300px;
+  padding-top: 20px;
+  list-style: none; 
+  text-align: left;
+}
+
+.journal-detail-list-container .sub-title {
+  margin-left: 100px;
+  width: 300px;
+}
+
+.journal-detail-list-container .sub-date {
+  margin-left: 300px;
+  margin-top: 25px;
+}
+
+.journal-detail-list-detial {
+  margin-top: 40px;
+  margin-left: 150px;
+  width: 600px;
+}
+
+.journal-detail-list-detial p{
+  margin-top: 40px;
+  line-height: 45px;
+  text-align: justify;
+  width: 600px;
+}
+
+.journal-detail-list-detial p::first-line {
+  text-indent: 50px
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 250px;
+  margin-left: 700px;
+  margin-top: 50px;
+  box-shadow: -30px 30px 40px 8px rgba(47, 47, 47, 0.993);
+}
+
+.note textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid white;
+  min-width: 100%;
+  max-width: 100%;
+  height: 200px;
+  padding: 10px;
+  outline: none;
+}
+
+.note button {
+  width: 100%;
+  background-color: #eec643;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+}
+
+.note button:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.note-page-container {
+  font-family: cursive;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/91G8asH3H7L._AC_SL1500_.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  padding-top:50px;
+  height: 1200px;
+}
+
+.note-page-container .selector{
+  cursor: pointer;  
+}
+
+.post {
+  position: absolute;
+  cursor: pointer;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 50px;
+  box-shadow: -30px 30px 40px 8px rgba(47, 47, 47, 0.993);
+}
+
+.drag {
+  transform: scale(1.1);
+}
+
+.post:hover {
+    transform: scale(1.1);
+}
+
+
+.post text {
+  font-family: cursive;
+  height: 100%;
+  width: 100%;
+  white-space: pre-wrap;
+  overflow-y: scroll;
+}
+
+
+.post .btn-cancel {
+  margin-left: 20px;
+}
+
+.edit-textarea {
+  position: absolute;
+  cursor: pointer;
+  background-size: cover;
+  width: 252px;
+  height: 210px;
+  padding: 20px;
+  margin: 0;
+  white-space: pre-wrap;
+  overflow-y: scroll;
+  overflow: hidden;
+  outline: none;
+}
+
+.mainLayout {
+  position: absolute;
+  bottom: 850px;
+  left: 400px;
+  right: 0;
+  height: 0;
+  width: 55%;
+  padding-left: 50px;
+  zoom: 1;
+}
+
+.hideMainLayout {
+  position: absolute;
+  bottom: 1500px;
+  left: 400px;
+  right: 0;
+  height: 0;
+  width: 55%;
+  padding-left: 50px;
+  zoom: 1;
+}
+
+
+.mainContent {
+  height: 52px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: -52px;
+  margin: 0 auto;
+  background-color: #333;
+}
+
+.playContent {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  top: 8px;
+  height: 44px;
+
+}
+
+
+.left-controler {
+  display: inline-block;
+  margin-right: 25px;
+  vertical-align: middle;
+  
+}
+
+.left-controler span {
+  vertical-align: middle;
+}
+
+
+.playIcon {
+  font-size: 36px;
+  cursor: pointer;
+  margin-right: 8px;
+  opacity: 0.8;
+}
+
+.playIcon:hover {
+  opacity: 1;
+}
+
+.prev-next-icon {
+  font-size: 28px;
+  cursor: pointer;
+  margin-right: 8px;
+  opacity: 0.8;
+}
+
+.prev-next-icon:hover {
+  opacity: 1;
+}
+
+.main-controler {
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  height: 36px;
+}
+
+.thumbnail {
+  animation: rotation 8s infinite linear;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.music-control {
+  color: #fff;
+  vertical-align: middle;
+  display: inline-block;
+  height: 36px;
+}
+
+.title-info {
+  color: #e8e8e8;
+}
+
+.music-info {
+  line-height: 12px;
+}
+
+.author-info {
+  margin-left: 15px;
+  color: #9b9b9b;
+}
+
+.process {
+  width: 100%;
+  box-shadow: 1px 1px 1px #000;
+  background: #000;
+  height: 8px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.progress-buffered {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 8px;
+  background: #c7c7c7;
+  opacity: 0.4;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.progress-played {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 8px;
+  background: #e11b22;
+  z-index: 2;
+  border-radius: 5px;
+}
+
+.process-item {
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  height: 16px;
+  width: 16px;
+  z-index: 3;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.process-item-inside {
+  position: relative;
+  background: #e11b22;
+  top: 4px;
+  left: 4px;
+  height: 8px;
+  width: 8px;
+  z-index: 4;
+  border-radius: 50%;
+}
+
+.process-time {
+  margin-top: 8px;
+  position: relative;
+}
+
+.process-wrapper {
+  width: 500px;
+  height: 8px;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: middle;
+  line-height: 8px;
+}
+
+.time {
+  vertical-align: middle;
+  line-height: 12px;
+  display: inline-block;
+  margin-left: 14px;
+  width: 90px;
+}
+
+.time-division {
+  width: 10px;
+}
+
+.current-time {
+  display: inline-block;
+  width: 40px;
+  text-align: left;
+}
+
+.total-time {
+  display: inline-block;
+  width: 40px;
+  text-align: right;
+}
+
+.right-folder {
+  display: inline-block;
+  margin-left: 30px;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.folder {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.folder:hover {
+  opacity: 1;
+}
+
+.right-controler {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+  font-size: 20px;
+  position: relative;
+}
+
+.right-controler::before {
+  width: 2px;
+  height: 24px;
+  background: #000;
+  box-shadow: 1px 1px 1px #000;
+  border-radius: 5px;
+  display: inline-block;
+  content: "";
+  margin-right: 15px;
+}
+
+.volume {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.volume:hover {
+  opacity: 1;
+}
+
+.volume-controler {
+  position: absolute;
+  top: -139px;
+  left: 9px;
+  width: 32px;
+  height: 128px;
+  background: #333;
+  z-index: 1;
+}
+
+.volume-process {
+  position: absolute;
+  left: 14px;
+  width: 4px;
+  height: 100px;
+  top: 15px;
+  background: #000;
+  z-index: 9999;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.volume-current {
+  position: absolute;
+  width: 4px;
+  bottom: 0;
+  background: #e11b22;
+  border-radius: 5px;
+}
+
+.volume-item {
+  position: absolute;
+  left: -4px;
+  bottom: -6px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+
+.volume-item-inside {
+  position: relative;
+  background: #e11b22;
+  top: 4px;
+  left: 4px;
+  height: 4px;
+  width: 4px;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.circulation {
+  opacity: 0.8;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.circulation:hover {
+  opacity: 1;
+}
+
+.list {
+  opacity: 0.8;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.list:hover {
+  opacity: 1;
+}
+
+.musicList {
+  position: absolute;
+  width: 1000px;
+  top: 43px;
+  left: 50%;
+  height: 300px;
+  margin-left: -500px;
+  background: #333;
+  bottom: 52px;
+}
+
+.music-list-head {
+  width: 1000px;
+  height: 40px;
+  position: relative;
+  background: #000;
+}
+
+.music-list-head-title {
+  position: absolute;
+  left: 25px;
+  top: 0;
+  height: 39px;
+  font-size: 14px;
+  color: #e2e2e2;
+  line-height: 39px;
+}
+
+.music-list-common-icon {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.music-list-action-icon {
+  font-size: 16px;
+  vertical-align: middle;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.music-list-common-text {
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+.music-list-head-collect:hover {
+  opacity: 1;
+}
+
+.music-list-head-collect {
+  opacity: 0.8;
+  position: absolute;
+  left: 395px;
+  top: 10px;
+  height: 15px;
+  line-height: 15px;
+  color: #ccc;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.music-list-head-line {
+  position: absolute;
+  left: 475px;
+  top: 13px;
+  height: 15px;
+  line-height: 15px;
+  background: red;
+  border-left: 1px solid #000;
+  border-right: 1px solid #2c2c2c;
+}
+
+.music-list-head-clear {
+  opacity: 0.8;
+  position: absolute;
+  left: 485px;
+  top: 10px;
+  height: 15px;
+  line-height: 15px;
+  font-size: 12px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.music-list-head-clear:hover {
+  opacity: 1;
+}
+
+.music-list-head-name {
+  position: absolute;
+  left: 590px;
+  top: 0;
+  width: 346px;
+  text-align: center;
+  height: 39px;
+  line-height: 39px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.music-list-head-close {
+  opacity: 0.8;
+  position: absolute;
+  right: 4px;
+  top: 6px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.music-list-head-close:hover {
+  opacity: 1;
+}
+
+.music-list-body {
+  position: absolute;
+  left: 0;
+  top: 41px;
+  width: 1000px;
+  height: 260px;
+  overflow: hidden;
+  background: #262626;
+}
+
+.music-list-body-content {
+  position: absolute;
+  left: 2px;
+  top: 0;
+  width: 540px;
+  height: 260px;
+  overflow: auto;
+}
+
+.music-list-body-ul {
+  color: #ccc;
+}
+
+.music-list-li {
+  display: inline-flex;
+  width: 100%;
+  list-style: none;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.music-current {
+  background: #121212;
+}
+
+
+
+.music-list-li::after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.music-list-li:hover .music-list-li-col-3 {
+  visibility: visible;
+}
+
+.music-list-li:hover {
+  background: #000;
+  opacity: 1;
+}
+
+.col {
+  float: left;
+  padding-left: 8px;
+  height: 28px;
+  line-height: 28px;
+  overflow: hidden;
+  cursor: pointer;
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.col:hover {
+  color: crimson;
+}
+
+.music-cover {
+  margin-top: 20px;
+  margin-left: 600px;
+
+}
+
+.music-cover  img {
+  width: 200px;
+  height: 200px;
+}
+
+.music-cover img {
+  border-radius: 50%;
+  overflow:hidden;
+  animation: rotation 8s infinite linear; 
+}
+
+.music-cover:hover {
+  transform: scale(1.1)
+}
+
+.music-list-li-text {
+  width: 100px;
+  font-size: 12px;
+  padding-right: 50px;
+  vertical-align: middle;
+}
+
+.play-triangle-icon {
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+.music-list-li-col-1 {
+  width: 10px;
+}
+
+.music-list-li-col-2 {
+  width: 215px;
+}
+
+.music-list-li-col-3 {
+  width: 115px;
+  visibility: hidden;
+}
+
+.music-list-li-col-4 {
+  width: 70px;
+}
+
+.music-list-li-col-5 {
+  width: 38px;
+}
+
+.music-list-li-col-6 {
+  width: 30px;
+  text-align: center;
+}
+
+.upload-title {
+  position: absolute;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 1000px;
+  top: 44.7px;
+  left: 50%;
+  height: 40px;
+  margin-left: -500px;
+  padding-top: 10px;
+  padding-left: 20px;
+  color: #fff;
+  font-size: 20px;
+  text-align: left;
+  background: #000;
+  z-index: 1;
+}
+
+
+.add-music {
+  position: absolute;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 1000px;
+  top: 70px;
+  left: 50%;
+  height: 380px;
+  margin-left: -500px;
+  padding-top: 10px;
+  background: #333;
+  bottom: 52px;
+}
+
+.close-add {
+  margin-left: 900px;
+  margin-bottom: -200px;
+  color: white;
+}
+
+.add-upload:hover {
+  color: #000;
+  background-color: rgb(216, 41, 50);
+} 
+
+.add-submit {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 8%;
+}
+
+.add-submit:hover {
+  color: #000;
+  background-color: rgb(216, 41, 50);
+}
+
+.add-input {
+  width: 500px;
+  border-style: double;
+  border-radius: 20%;
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.weather-page {
+  font-family:cursive;
+  margin-left: 1400px;
+  margin-top: 20px;
+  margin-bottom: -300px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 400px;
+  height: 320px;
+}
+
+.weather-page:hover {
+  transform: scale(1.1);
+}
+
+
+.header {
+  font-size: 25px;
+  font-weight: 900;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -50px;
+  align-items: center;
+}
+
+.location {
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.change-btn {
+  cursor: pointer;
+  margin-top: -35px;
+  margin-left: 135px;
+  transform-origin: center center;
+  transition: all 0.3s ease;
+}
+
+.change-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.location-input {
+  overflow: hidden;
+  transition: height 0.3s ease;
+  display: flex;
+  margin-top: 5px;
+}
+
+.location-input input {
+    width: 255px;
+    height: 30px;
+    outline: none;
+    border-radius: 20px;
+    font-size: 15px;
+    border: #ccc;
+    padding-left: 10px;
+    transition: border 0.3s ease;
+}
+
+.location-input input:focus {
+      border: 2px solid #52516b;
+      border-right: none;
+}
+
+.header-time {
+  margin-top: 5px;
+  display: flex;
+  font-size: 20px;
+  font-size: 400;
+}
+
+.header-time .month-day {
+    display: flex;
+    margin-right: 10px;
+}
+
+.header-time .day {
+  margin-left: 10px;
+}
+
+.weather-info {
+  user-select: none;
+  width: 355px;
+  overflow: hidden;
+  padding: 20px 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: height 0.3s ease;
+
+}
+
+.weather-info .details {
+  margin-top: 38px;
+}
+
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-logo {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.main-logo img {
+      width: 100%;
+}
+.main-txt {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.now-tmp {
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: -30px;
+}  
+
+.now-tmp sup {
+      font-size: 1.5rem;
+      padding-top: 20px;
+      position: absolute;
+      top: 0;
+}
+
+.more {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-top: 30px;
+}
+
+.more svg {
+  width: 30px;
+  height: 30px;
+}
+
+.details {
+  width: 100%;
+  height: 150px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  margin-top: 35px;
+}
+.details .detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details .icon {
+      width: 40%;
+      height: 100%;
+      margin-right: 4px;
+}
+
+.icon svg {
+        width: 100%;
+        height: 100%;
+}
+
+.details .txt {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      font-size: 0.8rem;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fffffe; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(240, 132, 9);
+}
+
+.profile-page-header {
+  background-image: url('https://shop.static.ingka.ikea.com/category-images/Category_wall-shelves.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  padding-top: 40px;
+  padding-bottom: 20px;
+  height: 260px;
+}
+
+.profile-page-header-img {
+  width: 150px;
+  height: 180px;
+  border: 12px solid #fff;
+  border-bottom: 50px solid #fff;
+  box-shadow: -10px 30px 40px 8px rgba(47, 47, 47, 0.993);
+}
+
+.profile-page .sub-nav {
+  background-image: url('https://wallpaperaccess.com/full/1616109.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  font-family: cursive;
+  list-style: none;
+  width: 15%;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 50px;
+  min-height: 800px;
+  margin-bottom: -800px;  
+  border: 3px solid rgb(0, 0, 0);
+  box-shadow: -10px 30px 40px 8px rgba(47, 47, 47, 0.993);
+  border-top: 0px 
+}
+
+.profile-page  .sub-nav-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+  margin-right: 60px;
+  box-shadow: -12px 5px 40px 8px rgba(47, 47, 47, 0.993);
+}
+
+.profile-page  .sub-nav-img:hover {
+  transform: scale(1.1);
+}
+
+.sub-nav .about-btn {
+  cursor: pointer;
+  text-align: center  ;
+  height: 35px;
+  padding-top: 5px;
+  color: white;
+  border: 3px solid rgb(155, 154, 154);
+  margin-top: 30px;
+  margin-right: 50px;
+  box-shadow: -12px 8px 50px 3px rgba(47, 47, 47, 0.993);
+  border-radius: 5px;
+}
+
+.sub-nav .about-btn:hover {
+  transform: scale(1.1);
+  background-color: rgba(124, 190, 187, 0.5);
+}
+
+
+
+.sub-nav .edit {
+  cursor: pointer;
+  text-align: center;
+  height: 35px;
+  padding-top: 5px;
+  color: white;
+  border: 3px solid rgb(155, 154, 154);
+  margin-top: 50px;
+  margin-right: 50px;
+  box-shadow: -12px 8px 50px 3px rgba(47, 47, 47, 0.993);
+  border-radius: 5px;
+}
+
+.sub-nav .edit:hover {
+  transform: scale(1.1);
+  background-color: rgba(124, 190, 187, 0.5);
+} 
+
+.sub-nav .reset {
+  cursor: pointer;
+  text-align: center;
+  height: 35px;
+  padding-top: 5px;
+  color: white;
+  border: 3px solid rgb(155, 154, 154);
+  margin-top: 50px;
+  margin-right: 50px;
+  box-shadow: -12px 8px 50px 3px rgba(47, 47, 47, 0.993);
+  border-radius: 5px;
+}
+
+.sub-nav .reset:hover {
+  transform: scale(1.1);
+  background-color: rgba(124, 190, 187, 0.5);
+} 
+
+.about {
+  background-image: url('https://64.media.tumblr.com/d4006cb8dd5dc19accc233bbd9e71408/tumblr_nzcrawPYQe1uiv7pro1_1280.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  width: 1540px;
+  min-height: 800px;
+  margin-left: 274px;
+  padding-top: 50px;
+  padding-right: 250px;
+}
+
+.about .about-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: -12px 8px 50px 10px rgba(47, 47, 47, 0.993);
+}
+
+.about .about-img-div {
+  height: 50px;
+  width: 800px;
+  margin-left: 250px;
+  margin-top: -40px;
+  background-color: rgba(153, 153, 153, 0.7);
+  border-radius: 12px;
+  box-shadow: -12px 8px 80px 30px rgba(47, 47, 47, 0.993);
+  z-index: -1;
+}
+
+.about .about-img-div-div {
+  height: 30px;
+  width: 800px;
+  margin-left: 250px;
+  margin-top: -30px;
+  background-color: rgba(34, 34, 34, 0.7);
+  border-radius: 4px;
+  z-index: -1;
+}
+
+.about .about-img-div-div-div {
+  height: 30px;
+  width: 800px;
+  margin-left: 250px;
+  margin-top: -40px;
+  border-radius: 4px;
+  background-color: rgba(88, 83, 83, 0.5);
+  z-index: -1;
+}
+
+.about-name {
+  font-weight: 600;
+  margin-top: 50px;
+  font-size: 45px;
+  width: 800px;
+  margin-left: 250px;
+  border-radius: 5px;
+  box-shadow: -12px 8px 50px 5px rgba(47, 47, 47, 10.99);
+}
+
+.about-icon {
+  width: 800px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 250px;
+  margin-top: 100px;
+  line-height: 50px;
+  text-align: left;
+  padding-left: 300px;
+}
+
+
+.profile-page-upload {
+  background-image: url('https://64.media.tumblr.com/d4006cb8dd5dc19accc233bbd9e71408/tumblr_nzcrawPYQe1uiv7pro1_1280.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  width: 1540px;
+  min-height: 800px;
+  margin-left: 274px;
+  padding-top: 50px;
+  padding-right: 250px;
+}
+
+.profile-page-upload .edit {
+  display:table-caption;
+  margin-top: 50px;
+  line-height: 70px;
+  margin-left: 450px;
+  cursor: pointer;
+}
+
+
+.rest-passowrd-page {
+  background-image: url('https://64.media.tumblr.com/d4006cb8dd5dc19accc233bbd9e71408/tumblr_nzcrawPYQe1uiv7pro1_1280.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  width: 1540px;
+  min-height: 800px;
+  margin-left: 274px;
+  padding-top: 200px;
+  padding-right: 250px;
+}
+
+.rest-passowrd-warning {
+  width: 600px;
+  font-size: 15px;
+  margin-left: 500px;
+  text-align: left;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.password-match {
+  color: rgba(40, 158, 4, 0.65);
+}
+
+.password-not-match {
+  color: rgba(253, 1, 1, 0.65);
+}
+
+.rest-view-password {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.rest-view-password:hover {
+  transform: scale(1.2);
+}
+
+.singup {
+  background-image: url('https://images.unsplash.com/photo-1487260211189-670c54da558d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d2hpdGUlMjB0aGVtZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  min-height: 1050px;
+  width: 1000px;
+  margin-left: 400px;
+  padding-top: 70px;
+  padding-left: 250px;
+  line-height: 60px;
+}
+
+.signup-form {
+  width: 500px;
+}
+
+.signup-form h1{
+    font-size: 30px;
+    box-shadow: -50px 30px 80px 0px rgba(47, 47, 47, 10.99);
+}
+
+.signup-passowrd-warning {
+  width: 500px;
+  font-size: 15px;
+  margin-left: 85px;
+  text-align: left;
+  line-height: 30px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
